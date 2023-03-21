@@ -44,7 +44,7 @@ main {
     max-width: 425px;
     margin: 0 auto;
 }
-.section_Pro-Tech18 {
+section {
     margin-top: 25px;
 }
 
@@ -54,7 +54,7 @@ main {
     width: 100%;
 }
 
-.titulo_masajes {
+h2 {
     font-size: 2.2rem;
 }
 .container {
@@ -65,4 +65,28 @@ main {
 .masajes {
     width: 8.2rem;
     height: 8.2rem;
+}
+
+
+
+.container_titulo_problema {
+    display: flex;
+    justify-content: center;
+}
+.container_select {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+select {
+    font-size: 2rem;
+}
+
+.container_input {
+    display: flex;
+    justify-content: center;
+}
+input {
+    font-size: 2rem;
 }
