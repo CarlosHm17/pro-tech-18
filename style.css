@@ -9,14 +9,16 @@ html {
     font-size: 62.5%;
 }
 
-
+main {
+    max-width: 425px;
+    margin: 0 auto;
+}
 .container {
     margin-top: 18px;
     display: flex;
     justify-content: space-around;
 }
 .masajes {
-    background-color: gray;
     width: 8.2rem;
     height: 8.2rem;
 }

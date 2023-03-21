@@ -1,3 +1,5 @@
+
+//Masaje Trece
 let masajeTrece = document.getElementById("masajeTrece");
 
 masajeTrece.addEventListener("click",infoTrece);
