@@ -8,10 +8,54 @@
 html {
     font-size: 62.5%;
 }
-
-main {
+header {
+    background-color: rgb(9, 9, 59);
+    height: 65px;
+    display: flex;
     max-width: 425px;
     margin: 0 auto;
+}
+
+.container_titulo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.container_logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 10rem;
+}
+
+
+main {
+    margin-top: 50px;
+    max-width: 425px;
+    margin: 0 auto;
+}
+.section_Pro-Tech18 {
+    margin-top: 25px;
+}
+
+.container_titulo_masajes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo_masajes {
+    font-size: 2.2rem;
 }
 .container {
     margin-top: 18px;
