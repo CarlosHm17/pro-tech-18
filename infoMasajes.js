@@ -159,3 +159,16 @@ masajeDieciocho.addEventListener("click",infoDieciocho);
 function infoDieciocho() {
     alert("Tapping y amasado:\nUna mezcla de contracciones rápidas y lentas.");
 }
+
+var listaProblemas = document.getElementById("problemas");
+var boton_problemas = document.getElementById("boton_problemas");
+boton_problemas.addEventListener("click", resultadoProblemas);
+
+function resultadoProblemas(){
+    if(listaProblemas.value == "Codo") {
+        masajeTres.classList.add("masajeTresColor");
+        masajeTres.classList.remove("masajes");
+        masajeCuatro.classList.add("masajeCuatroColor");
+        masajeCuatro.classList.remove("masajes");
+    }
+}

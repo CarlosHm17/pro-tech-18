@@ -62,10 +62,6 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
-.masajes {
-    width: 8.2rem;
-    height: 8.2rem;
-}
 
 
 
@@ -90,3 +86,20 @@ select {
 input {
     font-size: 2rem;
 }
+
+.masajeUnoColor {
+    filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
+}
+.masajeTresColor {
+    filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
+}
+.masajeCuatroColor {
+    filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
+}
+.masajes {
+    width: 8.2rem;
+    height: 8.2rem;
+    filter: drop-shadow(1px 1px 6px white)
+}
+
+

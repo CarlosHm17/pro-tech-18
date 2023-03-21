@@ -22,12 +22,12 @@
                 <h2 class="titulo_masajes">Como funciona Pro-Tech?</h2>
             </div>
             <div class="container">
-                <div id="masajeUno" class="masajes"><img src="./mediaProTech/masajeUno.jpg" alt=""></div>
+                <div id="masajeUno" class="masajes masajeUnoColor "><img src="./mediaProTech/masajeUno.jpg" alt=""></div>
                 <div id="masajeDos" class="masajes"><img src="./mediaProTech/masajeDos.jpg" alt=""></div>
-                <div id="masajeTres" class="masajes"><img src="./mediaProTech/masajeTres.jpg" alt=""></div>
+                <div id="masajeTres" class="masajes masajeTresColor"><img src="./mediaProTech/masajeTres.jpg" alt=""></div>
             </div>
             <div class="container">
-                <div id="masajeCuatro" class="masajes"><img src="./mediaProTech/masajeCuatro.jpg" alt=""></div>
+                <div id="masajeCuatro" class="masajes masajeCuatroColor"><img src="./mediaProTech/masajeCuatro.jpg" alt=""></div>
                 <div id="masajeCinco" class="masajes"><img src="./mediaProTech/masajeCinco.jpg" alt=""></div>
                 <div id="masajeSeis" class="masajes"><img src="./mediaProTech/masajeSeis.jpg" alt=""></div>
             </div>
@@ -57,7 +57,7 @@
                 <h2>Cual es tu problema?</h2>
             </div>
             <div class="container_select">
-                <select name="problemas" id="">
+                <select name="problemas" id="problemas">
                     <option value="Tension y estres">Tensión y estrés</option>
                     <option value="Ciatica">Ciática</option>
                     <option value="Hernias discales">Hernias discales</option>
@@ -70,10 +70,11 @@
                 </select>
             </div>
             <div class="container_input">
-                <input type="button" value="Buscar terapia">
+                <input id="boton_problemas" type="button" value="Buscar terapia">
             </div>
         </section>
+        <script src="./infoMasajes.js"></script>
     </main>
-    <script src="./infoMasajes.js"></script>
+
 </body>
 </html>
