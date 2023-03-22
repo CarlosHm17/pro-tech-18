@@ -77,6 +77,7 @@ h2 {
 }
 select {
     font-size: 2rem;
+    color: black;
 }
 
 .container_input {
@@ -85,6 +86,8 @@ select {
 }
 input {
     font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
 }
 
 
