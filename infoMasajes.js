@@ -166,9 +166,171 @@ boton_problemas.addEventListener("click", resultadoProblemas);
 
 function resultadoProblemas(){
     if(listaProblemas.value == "Codo") {
-        masajeTres.classList.add("masajeTresColor");
+        masajeTres.classList.add("masajeColor");
         masajeTres.classList.remove("masajes");
-        masajeCuatro.classList.add("masajeCuatroColor");
+        masajeCuatro.classList.add("masajeColor");
         masajeCuatro.classList.remove("masajes");
+        masajeOnce.classList.add("masajeColor");
+        masajeOnce.classList.remove("masajes");
+        masajeDoce.classList.add("masajeColor");
+        masajeDoce.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeDos.classList.remove("masajeColor");
+        masajeCinco.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Tension y estres") {
+        masajeUno.classList.add("masajeColor");
+        masajeUno.classList.remove("masajes");
+
+        masajeDos.classList.remove("masajeColor");
+        masajeTres.classList.remove("masajeColor");
+        masajeCuatro.classList.remove("masajeColor");
+        masajeCinco.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeOnce.classList.remove("masajeColor");
+        masajeDoce.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Ciatica") {
+        masajeDos.classList.add("masajeColor");
+        masajeDos.classList.remove("masajes");
+        masajeCuatro.classList.add("masajeColor");
+        masajeCuatro.classList.remove("masajes");
+        masajeCinco.classList.add("masajeColor");
+        masajeCinco.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeTres.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeOnce.classList.remove("masajeColor");
+        masajeDoce.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Hernias discales") {
+        masajeDos.classList.add("masajeColor");
+        masajeDos.classList.remove("masajes");
+        masajeCuatro.classList.add("masajeColor");
+        masajeCuatro.classList.remove("masajes");
+        masajeCinco.classList.add("masajeColor");
+        masajeCinco.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeTres.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeOnce.classList.remove("masajeColor");
+        masajeDoce.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Mango rotador") {
+        masajeTres.classList.add("masajeColor");
+        masajeTres.classList.remove("masajes");
+        masajeCuatro.classList.add("masajeColor");
+        masajeCuatro.classList.remove("masajes");
+        masajeOnce.classList.add("masajeColor");
+        masajeOnce.classList.remove("masajes");
+        masajeDoce.classList.add("masajeColor");
+        masajeDoce.classList.remove("masajes");
+        masajeDieciocho.classList.add("masajeColor");
+        masajeDieciocho.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeDos.classList.remove("masajeColor");
+        masajeCinco.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Rodilla") {
+        masajeTres.classList.add("masajeColor");
+        masajeTres.classList.remove("masajes");
+        masajeCuatro.classList.add("masajeColor");
+        masajeCuatro.classList.remove("masajes");
+        masajeOnce.classList.add("masajeColor");
+        masajeOnce.classList.remove("masajes");
+        masajeDoce.classList.add("masajeColor");
+        masajeDoce.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeDos.classList.remove("masajeColor");
+        masajeCinco.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeDies.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
+    }
+    else if(listaProblemas.value == "Migrañas y congestion nasal") {
+        masajeDies.classList.add("masajeColor");
+        masajeDies.classList.remove("masajes");
+
+        masajeUno.classList.remove("masajeColor");
+        masajeDos.classList.remove("masajeColor");
+        masajeTres.classList.remove("masajeColor");
+        masajeCuatro.classList.remove("masajeColor");
+        masajeCinco.classList.remove("masajeColor");
+        masajeSeis.classList.remove("masajeColor");
+        masajeSiete.classList.remove("masajeColor");
+        masajeOcho.classList.remove("masajeColor");
+        masajeNueve.classList.remove("masajeColor");
+        masajeOnce.classList.remove("masajeColor");
+        masajeDoce.classList.remove("masajeColor");
+        masajeTrece.classList.remove("masajeColor");
+        masajeCatorce.classList.remove("masajeColor");
+        masajeQuince.classList.remove("masajeColor");
+        masajeDieciseis.classList.remove("masajeColor");
+        masajeDicecisiete.classList.remove("masajeColor");
+        masajeDieciocho.classList.remove("masajeColor");
     }
 }

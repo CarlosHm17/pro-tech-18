@@ -87,13 +87,8 @@ input {
     font-size: 2rem;
 }
 
-.masajeUnoColor {
-    filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
-}
-.masajeTresColor {
-    filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
-}
-.masajeCuatroColor {
+
+.masajeColor {
     filter: drop-shadow(1px 1px 6px rgb(26, 26, 142));
 }
 .masajes {
